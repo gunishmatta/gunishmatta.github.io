@@ -6,15 +6,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
+  const { lang } = headData;
 
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+
+        <title>Gunish Matta</title>
+        <meta name="title" content=" ⚡️gunishmatta.github.io" />
+        <meta name="description" content="Portfolio Website for Gunish Matta" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gunishmatta.github.io/" />
+        <meta property="og:title" content="⚡️gunishmatta.github.io" />
+        <meta property="og:description" content="Portfolio Website for Gunish Matta" />
+        <meta property="og:image" content="metadata.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://gunishmatta.github.io/" />
+        <meta property="twitter:title" content="⚡️gunishmatta.github.io" />
+        <meta property="twitter:description" content="Portfolio Website for Gunish Matta" />
+        <meta property="twitter:image" content="metadata.png" />
       </Helmet>
       <App />
     </>
