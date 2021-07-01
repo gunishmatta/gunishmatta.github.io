@@ -22,13 +22,13 @@ export default () => {
         <meta property="og:url" content="https://gunishmatta.github.io/" />
         <meta property="og:title" content="⚡️gunishmatta.github.io" />
         <meta property="og:description" content="Portfolio Website for Gunish Matta" />
-        <meta property="og:image" content="metadata.png" />
+        <meta property="og:image" content="https://ardiusib.sirv.com/Images/metadata.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://gunishmatta.github.io/" />
         <meta property="twitter:title" content="⚡️gunishmatta.github.io" />
         <meta property="twitter:description" content="Portfolio Website for Gunish Matta" />
-        <meta property="twitter:image" content="metadata.png" />
+        <meta property="twitter:image" content="https://ardiusib.sirv.com/Images/metadata.png" />
       </Helmet>
       <App />
     </>
