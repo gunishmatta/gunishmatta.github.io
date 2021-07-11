@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'My domain of focus is Web Development but I am familiar with other domains such as Backend Development, Cloud and Blockchain.',
   paragraphThree: 'I also have worked for some freelance projects',
-  resume: 'https://cutt.ly/wbKXSGs', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1DfaUd4bUKP8uqJhRTIB7I8xMM6oQbd9G/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
